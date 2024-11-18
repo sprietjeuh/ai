@@ -22,6 +22,8 @@ stopping criterion?
 sizes. Describe whether and how the reconstruction quality (as you perceive it) decreases with more
 compression.
 
+<!-- TODO: Describe -->
+
 ![alt text](img/image-2.png)
 ![alt text](img/image-3.png)
 ![alt text](img/image-4.png)
@@ -34,5 +36,7 @@ compression.
 
 **Question 8** Show a few representative examples of test inputs and their reconstructed images.
 Comment on the visual quality of the reconstruction of the final autoencoder.
+
+<!-- TODO: Comment -->
 
 ![Original VS Reconstruction](img/image.png)
