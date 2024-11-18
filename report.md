@@ -1,6 +1,8 @@
 # AI Project 1 Report
 ## Group 39 - Denis Elshani - Thibaud Despriet
 
+### Building the classifier
+
 **Question 1** What challenging aspects do you anticipate in this dataset after exploring it?
 
 **Question 2** Which metric did you select for this task, and why?
@@ -17,6 +19,8 @@ previous values? Please explain and motivate your strategy.
 
 **Question 6** For how many epochs have you trained the final model? How did you determine the
 stopping criterion?
+
+### Encoding the dataset
 
 **Question 7** Select a validation sample and show its reconstructions when changing the latent space
 sizes. Describe whether and how the reconstruction quality (as you perceive it) decreases with more
@@ -40,3 +44,12 @@ Comment on the visual quality of the reconstruction of the final autoencoder.
 <!-- TODO: Comment -->
 
 ![Original VS Reconstruction](img/image.png)
+
+### Explaining the classifier
+
+**Question 9** Considering the sources of misclassification, along with the performance of your model
+on the training test dataset, explain the limitations of your model regarding data quality, overfitting,
+and underfitting. Select four examples of misclassification that highlight these underlying issues and
+plot them. Use local examples and counterexamples to illustrate your reasoning.
+
+<!-- TODO -->
