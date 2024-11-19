@@ -40,21 +40,21 @@ The final model was trained for 30 epochs. The stopping criterion was determined
 sizes. Describe whether and how the reconstruction quality (as you perceive it) decreases with more
 compression.**
 
-![Validation Loss VS Latent Space Dimension](img/)
+![Validation Loss VS Latent Space Dimension](img/latent_space.png)
 
-Latent space 32
-![Latent space 32](img/latent_space_32.png)
-Latent space 28
-![Latent space 28](img/latent_space_28.png)
-Latent space 24
-![Latent space 24](img/latent_space_24.png)
-Latent space 20
-![Latent space 20](img/latent_space_20.png)
-Latent space 16
-![Latent space 16](img/latent_space_16.png)
-Latent space 12
-![Latent space 12](img/latent_space_12.png)
-Latent space 8
+Latent space 32<br>
+![Latent space 32](img/latent_space_32.png)<br>
+Latent space 28<br>
+![Latent space 28](img/latent_space_28.png)<br>
+Latent space 24<br>
+![Latent space 24](img/latent_space_24.png)<br>
+Latent space 20<br>
+![Latent space 20](img/latent_space_20.png)<br>
+Latent space 16<br>
+![Latent space 16](img/latent_space_16.png)<br>
+Latent space 12<br>
+![Latent space 12](img/latent_space_12.png)<br>
+Latent space 8<br>
 ![Latent space 8](img/latent_space_8.png)
 
 As the latent space size decreases, the reconstruction quality diminishes noticeably. With larger latent space dimensions (e.g., 32), the autoencoder retains more detailed features of the original images, resulting in clearer and more accurate reconstructions. However, as the latent space is compressed to smaller dimensions like 16, 12, and down to 8, the reconstructions become progressively blurrier and lose finer details. This happens because a smaller latent space cannot capture all the essential information from the original data, leading to a loss of important features during the encoding process. Consequently, the autoencoder's ability to accurately reconstruct the original input deteriorates with increased compression.
