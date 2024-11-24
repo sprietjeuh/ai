@@ -1,26 +1,26 @@
 index,true_label,predicted_label,likely_causes
-23,9,5,TODO
-25,4,2,TODO
-40,6,0,TODO
-42,3,6,TODO
-43,7,9,TODO
-49,2,6,TODO
-57,4,6,TODO
-66,2,3,TODO
-67,3,4,TODO
-68,9,7,TODO
-98,4,2,TODO
-103,2,6,TODO
-107,9,7,TODO
-135,6,4,TODO
-147,6,3,TODO
-150,4,3,TODO
-244,6,2,TODO
-247,4,6,TODO
-248,2,6,TODO
-255,2,4,TODO
-299,8,3,TODO
-316,9,7,TODO
-320,8,0,TODO
-324,4,6,TODO
-325,6,2,TODO
+23,9,5,Underrepresentation
+25,4,2,Overlapping labels
+42,3,6,Noise
+43,7,9,Overlapping labels
+49,2,6,Underrepresentation
+57,4,6,Overlapping labels
+66,2,3,Noise
+68,9,7,Overlapping labels
+98,4,2,Overlapping labels
+103,2,6,Underfitting
+107,9,7,Overlapping labels
+147,6,3,Overlapping labels
+150,4,3,Overlapping labels
+192,1,0,Underfitting
+229,0,6,Overlapping labels
+244,6,2,Overlapping labels
+248,2,6,Overlapping labels
+271,3,6,Noise
+324,4,6,Overlapping labels
+325,6,2,Overlapping labels
+374,0,6,Overlapping labels
+378,4,3,Overlapping labels
+379,2,6,Underfitting
+381,0,6,Overfitting
+382,2,0,Underfitting
