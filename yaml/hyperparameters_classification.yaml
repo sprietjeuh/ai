@@ -1,0 +1,10 @@
+batch_size: 64
+dense_units: 128
+dropout_rate: 0.2
+epochs: 8
+filters: 64
+kernel_size: 3
+learning_rate: 0.001
+loss_function: tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
+optimizer: Adam(learning_rate=learning_rate)
+pool_size: 2
