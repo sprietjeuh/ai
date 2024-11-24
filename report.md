@@ -36,7 +36,7 @@ Other regularization techniques were not tested because of time reasons.
 **Question 6 For how many epochs have you trained the final model? How did you determine the
 stopping criterion?**
 
-The final model was trained for 8 epochs. We saw with the validation set that after 8 epochs the model started to overfit. So now we set the epoch size to 15 to prevent overfitting, as we cannot monitor the validation loss anymore.
+The final model was trained for 8 epochs. While tuning the hyperparameters we saw that the model started to overfit when reaching 8 epochs. So now we set the epoch size to 8 when training the final model to prevent overfitting, as we cannot monitor the validation loss anymore.
 
 ### Encoding the dataset
 ---
