@@ -6,5 +6,50 @@ filters: 64
 kernel_size: 3
 learning_rate: 0.001
 loss_function: tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
+model:
+  layers:
+  - Input:
+      shape:
+      - 28
+      - 28
+      - 1
+  - Conv2D:
+      activation: relu
+      filters: 64
+      kernel_size:
+      - 3
+      - 3
+  - Dropout:
+      rate: 0.2
+  - MaxPooling2D:
+      pool_size:
+      - 2
+      - 2
+  - Conv2D:
+      activation: relu
+      filters: 64
+      kernel_size:
+      - 3
+      - 3
+  - MaxPooling2D:
+      pool_size:
+      - 2
+      - 2
+  - Dropout:
+      rate: 0.2
+  - Conv2D:
+      activation: relu
+      filters: 64
+      kernel_size:
+      - 3
+      - 3
+  - Flatten: {}
+  - Dense:
+      activation: relu
+      units: 128
+  - Dropout:
+      rate: 0.4
+  - Dense:
+      units: 10
 optimizer: Adam(learning_rate=learning_rate)
 pool_size: 2
