@@ -36,7 +36,7 @@ Other regularization techniques were not tested because of time reasons.
 **Question 6 For how many epochs have you trained the final model? How did you determine the
 stopping criterion?**
 
-The final model was trained for 15 epochs. We saw with the validation set that after 15 epochs the model started to overfit. So now we set the epoch size to 15 to prevent overfitting, as we cannot monitor the validation loss anymore.
+The final model was trained for 8 epochs. We saw with the validation set that after 8 epochs the model started to overfit. So now we set the epoch size to 15 to prevent overfitting, as we cannot monitor the validation loss anymore.
 
 ### Encoding the dataset
 ---
@@ -79,7 +79,7 @@ on the training test dataset, explain the limitations of your model regarding da
 and underfitting. Select four examples of misclassification that highlight these underlying issues and
 plot them. Use local examples and counterexamples to illustrate your reasoning.**
 
-The biggest source for misclassification is overlapping labels, when plotting the test images with their local (counter)examples we see that the test image almost always resembles the (counter)examples. Another reason is noise, because of the low resolution of the images, it is sometimes difficult to see what the image represent, even as a human observer. The final big reason of misclassification is underfitting, in the history of training we saw that the model overfitted rapidly in the increasing amount of epochs, for that reason we decide to train the final model for only 8 epoch, which apperently in the end meant that the model is slightly underfitting. As this only happens a small portion of the time we cannot say we have an underfitting model, but the overlapping labels is the biggest reason for misclassification. 
+The biggest source for misclassification is overlapping labels, when plotting the test images with their local (counter)examples we see that the test image almost always resembles the (counter)examples. because of the small resolution (28x28), it is often difficult to differentiate between the small nuances of the labels. Another reason is noise, because of the low resolution of the images, it is sometimes difficult to see what the image represent, even as a human observer. The final big reason of misclassification is underfitting, in the history of training we saw that the model overfitted rapidly in the increasing amount of epochs, for that reason we decide to train the final model for only 8 epochs, which apperently in the end meant that the model is slightly underfitting. As this only happens a small portion of the time we cannot say we have an underfitting model, but the overlapping labels is the biggest reason for misclassification. 
 
 Overlapping labels
 ![Overlappinglabels1](img/Overlappinglabels1.png)<br>
