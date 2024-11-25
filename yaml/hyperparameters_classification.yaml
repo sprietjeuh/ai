@@ -1,7 +1,7 @@
 batch_size: 64
 dense_units: 128
 dropout_rate: 0.2
-epochs: 8
+epochs: 10
 filters: 64
 kernel_size: 3
 learning_rate: 0.001
@@ -51,5 +51,5 @@ model:
       rate: 0.4
   - Dense:
       units: 10
-optimizer: Adam(learning_rate=learning_rate)
+optimizer: Adam(learning_rate=0.001)
 pool_size: 2
