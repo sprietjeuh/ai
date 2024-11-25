@@ -1,0 +1,13 @@
+,filters,kernel_size,pool_size,dense_units,accuracy,loss,batch_size,learning_rate,history,model,epochs,early_stopping
+0,16,3,2,128,0.9003888964653015,0.2742704153060913,64,0.001,<keras.src.callbacks.history.History object at 0x0000020357BB6900>,"<Sequential name=sequential_8, built=True>",21,0.005
+1,16,3,2,128,0.8625555634498596,0.3863281309604645,64,0.0001,<keras.src.callbacks.history.History object at 0x00000203670F6E70>,"<Sequential name=sequential_9, built=True>",39,0.005
+2,16,3,2,128,0.8926110863685608,0.2950374484062195,64,0.0005,<keras.src.callbacks.history.History object at 0x0000020362D41100>,"<Sequential name=sequential_10, built=True>",21,0.005
+3,32,3,2,128,0.9076111316680908,0.24678738415241241,64,0.001,<keras.src.callbacks.history.History object at 0x0000020357A28C50>,"<Sequential name=sequential_11, built=True>",16,0.005
+4,32,3,2,128,0.8848333358764648,0.31641608476638794,64,0.0001,<keras.src.callbacks.history.History object at 0x00000203650DDD30>,"<Sequential name=sequential_12, built=True>",34,0.005
+5,32,3,2,128,0.9107778072357178,0.2406787872314453,64,0.0005,<keras.src.callbacks.history.History object at 0x000002033AB46420>,"<Sequential name=sequential_13, built=True>",27,0.005
+6,64,3,2,128,0.9125000238418579,0.23998762667179108,64,0.001,<keras.src.callbacks.history.History object at 0x000002033D980E90>,"<Sequential name=sequential_14, built=True>",16,0.005
+7,64,3,2,128,0.9041666388511658,0.264950692653656,64,0.0001,<keras.src.callbacks.history.History object at 0x00000203492FA7E0>,"<Sequential name=sequential_15, built=True>",34,0.005
+8,64,3,2,128,0.9122777581214905,0.23989179730415344,64,0.0005,<keras.src.callbacks.history.History object at 0x000002034D30CAD0>,"<Sequential name=sequential_16, built=True>",17,0.005
+9,128,3,2,128,0.9117222428321838,0.24011927843093872,64,0.001,<keras.src.callbacks.history.History object at 0x0000020351717CE0>,"<Sequential name=sequential_17, built=True>",13,0.005
+10,128,3,2,128,0.914722204208374,0.2330659180879593,64,0.0001,<keras.src.callbacks.history.History object at 0x0000020357A92C90>,"<Sequential name=sequential_18, built=True>",30,0.005
+11,128,3,2,128,0.9164999723434448,0.22687675058841705,64,0.0005,<keras.src.callbacks.history.History object at 0x00000203695913D0>,"<Sequential name=sequential_19, built=True>",14,0.005
