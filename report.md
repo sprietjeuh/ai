@@ -81,17 +81,17 @@ plot them. Use local examples and counterexamples to illustrate your reasoning.*
 
 The biggest source for misclassification is overlapping labels, when plotting the test images with their local (counter)examples we see that the test image almost always resembles the (counter)examples. because of the small resolution (28x28), it is often difficult to differentiate between the small nuances of the labels. Another reason is noise, because of the low resolution of the images, it is sometimes difficult to see what the image represent, even as a human observer. The final big reason of misclassification is underfitting, in the history of training we saw that the model overfitted rapidly in the increasing amount of epochs, for that reason we decide to train the final model for only 8 epochs, which apperently in the end meant that the model is slightly underfitting. As this only happens a small portion of the time we cannot say we have an underfitting model, but the overlapping labels is the biggest reason for misclassification. 
 
-Overlapping labels
+Overlapping labels<br>
 ![Overlappinglabels1](img/Overlappinglabels1.png)<br>
 ![Overlappinglabels2](img/Overlappinglabels2.png)<br>
 ![Overlappinglabels3](img/Overlappinglabels3.png)<br>
 ![Overlappinglabels4](img/Overlappinglabels4.png)<br>
 
-Underfitting
+Underfitting<br>
 ![Underfitting1](img/Underfitting1.png)<br>
 ![Underfitting2](img/Underfitting2.png)<br>
 
-Noise
+Noise<br>
 ![Noise1](img/Noise1.png)<br>
 ![Noise2](img/Noise2.png)<br>
 
